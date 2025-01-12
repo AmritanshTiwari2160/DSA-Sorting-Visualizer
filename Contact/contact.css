@@ -1,0 +1,84 @@
+.text{
+    background-color:black;    
+    color: white;
+    border-radius: 5px;
+    margin: 18px 100px; 
+    padding: 70px 100px;
+   
+}
+
+.centre-text{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    line-height: 1rem;
+    font-family: "Franklin Libre", serif;
+    font-weight:bolder; 
+    border-color: white;
+}
+
+.big{
+
+   text-decoration: underline;
+   font-size: 1.7rem;
+   font-family: "Parkinsans", serif;
+   animation: gs 0.8s ease-in-out 1;
+ }
+ @keyframes gs {
+    0% {
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1); /* Shrink back to normal size */
+    }
+  }
+
+ .links{
+    color: #45A29E;
+    text-decoration: underline #45A29E;
+    font-size: 1.5rem;
+    font-family: "Parkinsans", serif;
+ }
+
+.links:visited {
+    color: #ffffff;
+}
+
+.links:hover {
+    color: rgb(240, 239, 239);
+    transform: scale(1.1); 
+}
+
+.links:active {
+    color: yellowgreen;
+    transform: scale(1.05); 
+}
+
+ body{
+    background-color:#1F2833;    
+}
+
+.assistance{
+    font-size: 1.7rem;
+    text-align: center;
+    color: yellow;
+    font-weight: lighter;
+    transition: all 0s ease;
+    animation: growShrink 1s ease-in-out 1;
+    font-family: "Parkinsans", serif;
+}
+
+@keyframes growShrink {
+    0% {
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

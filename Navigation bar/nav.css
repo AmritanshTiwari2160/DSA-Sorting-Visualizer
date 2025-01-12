@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+}
+
+#logo {
+    font-family: "Parkinsans", serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.navbar1 {
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    width: 100%;
+    height: 80px;
+    background-color: #0B0C10;
+}
+
+.navbar1 li {
+    list-style: none;
+}
+
+.navbar1 ul {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 75px;
+    font-weight: bold;
+}
+
+.navbar2 {
+    font-family: "Parkinsans", serif;
+    display:flex;
+    margin-top: 15px;
+    z-index: 5;
+    width: auto;
+    height: auto;
+    font-size: auto;
+    font-weight: 600;
+}
+
+.navbar2 li {
+    list-style: none;
+    margin: 10px 40px;
+    font-size: large;
+}
+
+.navbar2 ul {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding-top: 10px;
+}
+
+.navbar2 li a {
+    color: white;
+    padding: 3px 3px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar2 li a:hover {
+    text-decoration: underline;
+    color: #66FCF1;
+}
+
+.tab-locator {
+    color: #66FCF1;
+    text-decoration: underline;
+}
+
+.tab-locator-clr {
+    background-color: #1F2833;
+    border: none;
+    text-decoration: underline;
+    color: #66FCF1;
+    transform: scale(1.2);
+}
+
+.animation-container {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.animation-icon {
+    width: 100%;
+    height: 100%;
+    background-color: #66FCF1;
+    border-radius: 50%;
+    animation: titleAnimation 0.5s infinite alternate;
+}
+
+@keyframes titleAnimation {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-25px);
+    }
+}
+
+.jura {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar1 ul {
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .navbar2 li {
+        margin: 10px 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+        font-size: 2rem;
+    }
+
+    .navbar1 ul {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .navbar2 ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar2 li {
+        margin: 8px 0;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        font-size: 1.8rem;
+    }
+
+    .navbar2 li {
+        margin: 5px 0;
+        font-size: 0.9rem;
+    }
+
+    .navbar1,
+    .navbar2 {
+        height: auto;
+    }
+
+    .navbar1 ul,
+    .navbar2 ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

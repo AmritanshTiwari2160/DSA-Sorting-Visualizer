@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/Navigation bar/nav.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Matemasie&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Parkinsans:wght@300..800&family=Paytone+One&family=Permanent+Marker&family=Protest+Guerrilla&family=Rubik+Mono+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar1">
+            <ul>
+                <li>
+                    <a id="logo" title="Go to home" href="index.html">Sorting Visualizer</a>
+                    <div class="animation-container">
+                        <div class="animation-icon">
+                        </div>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar2">
+            <ul>
+                <li ><a href="index.html"><span class="tab-locator">Home</span></a></li>
+                <li><a href="/About/about.html">About</a></li>
+                <li><a href="/Contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main >
+        <button onclick="topFunction()" id="TopBtn" title="Go to top">
+            <script src="index.js"></script>
+            <ion-icon name="arrow-up-circle">Top</ion-icon>
+        </button>
+
+        <div class ="text">
+        <p >This project is a personal endeavor aimed at simplifying the learning process for sorting algorithms through real-time visualizations. Designed with passion and precision, this tool offers a unique way to dive into the fascinating world of algorithms, bridging the gap between theoretical concepts and practical understanding.</p> 
+        <p >With my website, you can explore a wide range of sorting algorithms and see how they
+            work in action, from simple algorithms like bubble sort to more complex algorithms like quicksort and merge
+            sort. Our visualization tools make it easy to understand how these algorithms work, and our side-by-side
+            comparisons allow you to see how different algorithms stack up against each other.</p>
+        <p >Crafted with HTML, CSS, and JavaScript, this project is a testament to my enthusiasm for coding and problem-solving. Whether you're a student, developer, or curious mind, this visualizer is designed to help you explore sorting algorithms with ease and clarity. Dive in and see the magic of algorithms unfold!</p>
+        <p >So why wait? Start exploring my sorting visualization website today and discover the
+            power of algorithms in action!</p>
+        
+            <div class="sort-btn">
+               <a href="/Selection sort/selection_sort.html"><button  class="sorts jura">Selection Sort</button></a> 
+               <a href="/Bubble sort/bubble_sort.html"><button class="sorts jura">Bubble Sort</button></a> 
+               <a href="/Insertion sort/insertion_sort.html"><button  class="sorts jura">Insertion Sort</button></a> 
+            </div>
+            <div class="sort-btn">
+                <a href="/Merger sort/merge_sort.html"><button  class="sorts jura">Merge Sort</button> </a>
+                <a href="/Quick sort/quick_sort.html"><button  class="sorts jura">Quick Sort</button></a>
+            </div>
+        </div>    
+        </main>
+    <footer>
+        <div class="ribbon"></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.text{
+    background-color:black;    
+    color: white;
+    border-radius: 5px;
+    margin: 18px 100px; 
+    padding: 70px 100px;
+    line-height: 50px;
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5rem;
+ 
+}
+
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body{
+    background-color:#1F2833;   
+}
+    
+p{
+    word-spacing: 7px;
+    padding: 16px;
+}
