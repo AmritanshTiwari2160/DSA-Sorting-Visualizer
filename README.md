@@ -3,6 +3,8 @@ A web-based tool designed to help users **visualize** and understand various **s
 <br>
 <br>
 **Please visit my website**: https://amritansh-sorting-visualizer.netlify.app/
+
+## Some Key Insights
 ![Demo Screenshot](Demo_Images/image1.png)
 ![Demo Screenshot](Demo_Images/image2.png)
 ![Demo Screenshot](Demo_Images/image3.png)
